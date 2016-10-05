@@ -8,27 +8,27 @@ Challenges within each section are meant to be solved in order.
 
 ### Navigation
 
-1.  Print the path of your working directory
-1.  List the files in your working directory
-1.  List the files with a particular extension, like `.txt`
-1.  List the files in a subdirectory, like `project`
-1.  Navigate to a subdirectory, like `project`
-1.  Navigate to the parent directory of your working directory
-1.  Navigate to a nested subdirectory, like `path/to/project`
-1.  Navigate to your home directory
-1.  Navigate back to the previous directory
+1.  Print the path of your working directory `pwd`
+1.  List the files in your working directory `ls`
+1.  List the files with a particular extension, like `.txt` `ls *.txt`
+1.  List the files in a subdirectory, like `project` `ls Projects`
+1.  Navigate to a subdirectory, like `project` `cd Projects`
+1.  Navigate to the parent directory of your working directory `..`
+1.  Navigate to a nested subdirectory, like `path/to/project` `cd Projects/Web/`
+1.  Navigate to your home directory `~`
+1.  Navigate back to the previous directory `cd -`
 
 ### Variables
 
-1.  Print a sentence, like `Hello world`
-1.  Print a variable value, like `$USER` or `$PATH`
-1.  Set a variable `NAME` equal to your first name, then print its value
+1.  Print a sentence, like `Hello world` `echo "Hi"`
+1.  Print a variable value, like `$USER` or `$PATH` `echo $PATH`
+1.  Set a variable `NAME` equal to your first name, then print its value `name="Luca" && echo $name`
 1.  Set a variable `FULL_NAME` equal to your full name, then print its value
-1.  Print all environment variables (names and values)
-1.  Make an alias named `hello` that prints `Hello world`
-1.  Print all aliases (names and values)
-1.  Print what options a command accepts, like `bash`
-1.  Read the manual for a command, like `echo` or `ls`
+1.  Print all environment variables (names and values) `printenv`
+1.  Make an alias named `hello` that prints `Hello world` `alias hello='echo Hello World'`
+1.  Print all aliases (names and values) `alias`
+1.  Print what options a command accepts, like `bash` `bash -help`
+1.  Read the manual for a command, like `echo` or `ls` `man ls`
 
 ### Files
 
